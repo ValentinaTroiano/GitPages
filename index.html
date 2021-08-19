@@ -17,6 +17,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
+
     <!--Titulo-->
     <title>NBA Homepage</title>
 
@@ -27,19 +29,23 @@
     <script src="https://kit.fontawesome.com/89756e9f15.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="estilosMain.css">
+    <!--Aqui empeiza mi proyecto final de mi pagina web basada en la NBA, contiene 5 html sin contar el homepage, con
+    distintos tipos de contenido e informacion. En esta primera seccion contamos con un video del Draft 2021, y noticias
+    de todoo tipo actuales.-->
 </head>
 
 
 
 <body>
-    
+    <!--El header esta en todos los html del proyecyo para que sea navegable.
+       Tambien esta adaptado a los diferentes tamaños de aparatos mobiles-->
 <header>
         <div class="container header__menu--container">
 
           <h1><img src="img/logo-nba (1).svg" width="100px"> </h1>
              <a href="#nav" class="menu__abrir"><i class="fas fa-bars"></i></i></a>
                 <nav id="nav">
-                    <a href="Inicio.html">Inicio</a>
+                    <a href="index.html">Inicio</a>
                     <a href="Equipos.html">Equipos</a>
                     <a href="Draft.html">Draft 2021</a>
                     <a href="SistemaDeCompeticion.html">Sistema</a>
@@ -50,6 +56,11 @@
 
         </div>
     </header>
+
+
+    <!--La pagina de inicio cuanta con un titulo y un video linkeado desde youtube. Tambien una seccion de noticias
+ linkeada desde Bootstrap, la cual le modifique los height y width para que quedara mejor y dependiendo del tamaño del
+aparato mobil.-->
 
 
   
@@ -70,7 +81,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4" id="noticias">
         <div class="col">
           <div class="card">
-            <img src="./img/young.jpg" class="card-img-top" alt="...">
+            <img src="./img/young.jpg" class="card-img-top" alt="El equipo de Atlanta Hawks encestando la pelota">
             <div class="card-body">
               <h5 class="card-title">Nate McMillan seguirá al frente de Atlanta Hawks</h5>
               <p class="card-text">Parecía un hecho por su gran paso en la 2020-2021, pero restaba la confirmación oficial. Segui leyendo <a href="https://ar.nba.com/news/nate-mcmillan-atlanta-hawks-nba-2020-2021/1nrs3fmoflj581f1nyh1y13lj9">Aqui</a></p>
@@ -79,7 +90,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="./img/bucks2.jpg" class="card-img-top" alt="...">
+            <img src="./img/bucks2.jpg" class="card-img-top" alt="Imagen de los Milwaukee Bucks">
             <div class="card-body">
               <h5 class="card-title">Finales NBA 2021</h5>
               <p class="card-text">Milwaukee Bucks, Jrue Holiday y el beneficio de acelerar en el momento indicado. Segui leyendo <a href="https://ar.nba.com/news/finales-nba-2021-milwaukee-bucks-jrue-holiday/1aix44z9xl3cw1drtrstxw1psm">Aqui</a></p>
@@ -88,7 +99,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="./img/crowder.jpg" class="card-img-top" alt="...">
+            <img src="./img/crowder.jpg" class="card-img-top" alt="Jae Crowder disparando la pelota">
             <div class="card-body">
               <h5 class="card-title">Jae Crowder, un trotamundos que se volvió sinónimo de éxito</h5>
               <p class="card-text">El jugador de los Phoenix Suns llegó a Arizona en la offseason de 2020 tras ser una pieza vital del Miami Heat finalista. Segui leyendo <a href="https://ar.nba.com/news/finales-nba-2021-jae-crowder-phoenix-suns/16cvs7geeyroh13u8jf5a2qk1x">Aqui</a></p>
@@ -97,7 +108,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="./img/suns.jpg" class="card-img-top" alt="...">
+            <img src="./img/suns.jpg" class="card-img-top" alt="Imagen del equipos de los Phoenix Suns antes de un partido">
             <div class="card-body">
               <h5 class="card-title">Finales NBA 2021</h5>
               <p class="card-text">La reaparición de Phoenix Suns en la definición al primer intento, ¿una nueva dinámica de la liga? Segui leyendo <a href="https://ar.nba.com/news/finales-nba-2021-reaparicion-phoenix-suns-definicion-primer-intento-nueva-dinamica-liga/oty3mb7gi8hw1mc25ctv0tg6n">Aqui</a></p>
@@ -108,7 +119,7 @@
 
 
 
-
+<!--El footer tambien esta en todos los html y cueenta con las redes sociales de la NBA-->
 
       <footer>
 
@@ -122,7 +133,7 @@
             
          
           <ul class="footer__info--redes">
-             <li><i class="fab fa-instagram"></i></li>
+             <li><i class="fab fa-instagram"  ></i></li>
              <li><i class="fab fa-twitter"></i> </li>
           </ul>
 

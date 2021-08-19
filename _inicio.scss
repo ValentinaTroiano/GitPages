@@ -15,7 +15,7 @@
     
         
     }
-    @media (max-width: 500px){
+    @media (max-width: 480px){
         width: 300px;
         margin: auto;
     }
@@ -27,4 +27,7 @@
     padding: 20px;
     background-color: rgb(40, 40, 122);
     color: wheat;
+}
+.video{
+    margin: auto;
 }
